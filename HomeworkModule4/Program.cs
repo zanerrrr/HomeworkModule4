@@ -6,6 +6,7 @@ namespace HomeworkModule4
     {
         static void Main(string[] args)
         {
+            #region Month days
             int monthnumber;
 
             Console.WriteLine("Enter your month number from 1 - 12 : ");
@@ -50,13 +51,11 @@ namespace HomeworkModule4
                     Console.WriteLine("31 days!");
                     break;
                 default:
-                    Console.WriteLine("Invald input! You must eneter month number from 1 to 12! :)");
+                    Console.WriteLine("This doesn't work like that! You must enter month number from 1 to 12! :)");
                     break;
-
-
-
             }
-            
+            #endregion
+
             Console.ReadLine();
         }
     }
